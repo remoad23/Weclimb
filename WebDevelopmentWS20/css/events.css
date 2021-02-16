@@ -1,0 +1,438 @@
+.event_wrapper
+{
+    min-height: 100vh;
+    height:100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(33,33,33,1.0);
+}
+
+.workshop_wrapper
+{
+    height: 80vh;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+}
+
+.events
+{
+    height: 150vh;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.events > h1
+{
+    margin: 0 auto;
+    margin-bottom: 0px;
+    width: 80%;
+    border: 3px solid #0073FF;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 6px;
+    margin-bottom: 2%;
+    color: #9ACD32;
+}
+
+.workshop_section
+{
+    height: 45%;
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+/* Laesst beide Elemente beim Hovern erscheinen.. */
+.workshop_section:hover > h1 , .workshop_section:hover > button
+{
+    opacity: 1;
+}
+
+/* Childelement (h1) von workshop selecten*/
+.workshop_section > h1
+{
+    height: 8%;
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    transition: opacity 0.3s;
+    opacity: 0;
+    color: white;
+    font-size: 3.5vh;
+}
+
+.workshop_section > button
+{
+
+    height: 8%;
+    background-color:transparent;
+    width: 40%;
+    border-radius: 30px;
+    align-self: center;
+    transition: opacity 0.3s, background 1s;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 88%;
+}
+
+.workshop_section:nth-child(1)
+{
+    background-image: url("../images/bg/Vorstieg.png");
+    width: 21%;
+    background-size: 100%;
+    height: 72%;
+    left: 0;
+}
+
+.workshop_section:nth-child(2)
+{
+    background-image: url("../images/bg/Event.png");
+    height: 39%;
+    background-size: 100%;
+    width: 40%;
+    left: 21%;
+    top: 52%;
+}
+
+.workshop_section:nth-child(3)
+{
+    background-image: url("../images/bg/Hiking.png");
+    width: 50%;
+    height: 52%;
+    background-size: 100%;
+    right: 12%;
+}
+
+.workshop_section:nth-child(4)
+{
+    background-image: url("../images/bg/Toprobe.png");
+    height: 72%;
+    background-size: 100%;
+    width: 21%;
+    right: 0;
+    background-position-x: right;
+}
+
+.workshop_section:nth-child(1) > h1
+{
+    margin-right: 23%;
+}
+
+.workshop_section:nth-child(1) > button
+{
+}
+
+.workshop_section:nth-child(2) > h1
+{
+    margin-right: 30%;
+}
+
+.workshop_section:nth-child(2) > button
+{
+    margin-bottom: 5%;
+    height: 15%;
+    width: 26%;
+    margin-right: 30%;
+}
+
+.workshop_section:nth-child(3) > h1
+{
+    margin-left: 15%;
+}
+
+.workshop_section:nth-child(3) > button
+{
+    margin-bottom: 13%;
+    width: 20%;
+    height: 11%;
+    margin-left: 15%;
+}
+
+.workshop_section:nth-child(4) > h1
+{
+    margin-top: 50%;
+}
+
+.workshop_section:nth-child(4) > button
+{
+    margin-bottom: 0%;
+}
+
+.workshop_section:hover > button:hover
+{
+    background: linear-gradient(89.84deg, rgb(153, 204, 51) 0.05%, rgb(51, 120, 204) 100.25%);
+}
+
+.event_content
+{
+    height: 20%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.event_content > p
+{
+    color: #ACACAC;
+    font-size: 5em;
+    align-self: center;
+}
+
+.event_content > p:nth-child(2)
+{
+
+    color: white;
+    font-size: 3vh;
+}
+
+
+.event_content > img
+{
+
+    height: 100%;
+    width: 32%;
+}
+
+.text_event_wrapper
+{
+
+    color: white;
+    height: 100%;
+    width: 52%;
+    margin-right: 0%;
+}
+
+.text_event_wrapper > h1
+{
+    color: #0073FF;
+    margin-top: -1%;
+    font-size: 3.4vh;
+    font-weight: bolder;
+}
+
+.text_event_wrapper > p
+{
+    /* Damit texte sich besser wrappen...*/
+    overflow-wrap: break-word;
+    line-height: 1.2;
+    margin-top: 3%;
+    font-size: 2.1vh;
+}
+
+@media screen and (min-width: 1280px){
+
+    .event_content > p:nth-child(2)
+    {
+
+
+        font-size: 3vh;
+    }
+
+    .text_event_wrapper
+    {
+
+
+        height: 100%;
+        width: 52%;
+        margin-right: 0%;
+    }
+
+    .text_event_wrapper > h1
+    {
+
+        margin-top: -2%;
+    }
+
+    .text_event_wrapper > p
+    {
+        /* Damit texte sich besser wrappen...*/
+
+        line-height: 1.4;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .workshop_wrapper
+    {
+        height: 40vh;
+    }
+
+    .workshop_section:nth-child(1){
+        width: 30%;
+        margin-top: 15%;
+    }
+
+    .workshop_section:nth-child(2){
+        width: 49%;
+        left: 18%;
+        top: 28%;
+    }
+
+    .workshop_section:nth-child(3){
+        margin-top: 15%;
+        right: 17%;
+    }
+    .workshop_section:nth-child(4){
+        width: 30%;
+        margin-top: 15%;
+    }
+
+    .workshop_section > h1
+    {
+        font-size: 1.5vh;
+    }
+
+    .workshop_section:nth-child(1) > h1 {
+        margin-left: -3%;
+        margin-top: -242%;
+    }
+
+    .workshop_section:nth-child(1) > button{
+
+        height: 4%;
+        width: 55%;
+        font-size: 1vh;
+        margin-top: -260%;
+        margin-right: 17%;
+    }
+
+    .workshop_section:nth-child(2) > h1 {
+        margin-right: 34%;
+        margin-top: 2%;
+    }
+
+    .workshop_section:nth-child(2) > button{
+
+        height: 8%;
+        width: 44%;
+        margin-right: 29%;
+        font-size: 1vh;
+        margin-bottom: 84%;
+}
+
+
+
+    .workshop_section:nth-child(3) > h1{
+        margin-left: 15%;
+        margin-top: -124%;
+    }
+
+    .workshop_section:nth-child(3) > button{
+        margin-top: -142%;
+        width: 31%;
+        height: 6%;
+        margin-left: 20%;
+        font-size: 1vh;
+
+
+    }
+
+    .workshop_section:nth-child(4) > h1{
+        margin-top: 33%;
+    }
+
+    .workshop_section:nth-child(4) > button{
+
+        margin-bottom: 39vh;
+        font-size: 1vh;
+        width: 54%;
+        height: 4%;
+    }
+
+
+    /*kommende Veranstaltungen*/
+
+    .event_content
+    {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .event_content > p
+    {
+
+    }
+
+
+    .event_content > img
+    {
+        height: 75%;
+        width: 64%;
+        margin-top: -49%;
+        margin-left: 25%;
+    }
+
+    .event_content > p
+    {
+        margin-left: 5%;
+        font-size: 4.5em;
+    }
+
+    .text_event_wrapper
+    {
+        width: 66%;
+        margin-left: 25%;
+    }
+
+    .text_event_wrapper > h1
+    {
+        margin-top: 5%;
+        font-size: 2.4vh;
+    }
+
+    .text_event_wrapper >p
+    {
+        font-size: 1.3vh;
+        margin-top: -2%;
+        line-height:1.5;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    .events
+    {
+        height: 205vh;
+    }
+
+    .event_content
+    {
+        margin-top: -16%;
+    }
+
+    .event_content >p
+    {
+        font-size: 3.2em;
+        margin-top: 27%;
+    }
+
+    .event_content > img
+    {
+        width: 65%;
+        height: 45%;
+        margin-left: 26%;
+        margin-top: -43%;
+
+    }
+
+    .text_event_wrapper {
+
+        width: 67%;
+        margin-left: 26%;
+
+    }
+}

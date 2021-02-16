@@ -1,0 +1,485 @@
+/*About Seite */
+
+.about_wrapper
+{
+    min-height: 100vh;
+    height:100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(33,33,33,1.0);
+}
+
+.ourstory, .faq, .sponsoring, .contactsub, .impressum
+{
+    display:flex;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+.ourstory
+{
+    background-image: url("../images/bg/Backgroundrectangles_1.svg");
+    height: 60vh;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.communitytriangle
+{
+    display: flex;
+    background-image: url("../images/bg/Backgroundrectangles_2.svg");
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150vh;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.faq
+{
+    background-image: url("../images/bg/Backgroundrectangles_1.svg");
+    z-index: 4;
+}
+
+.sponsoring
+{
+    background-image: url("../images/bg/Backgroundrectangles_2.svg");
+    margin-top: 10%;
+}
+
+.contactsub
+{
+    background-image: url("../images/bg/Backgroundrectangles_1.svg");
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.impressum
+{
+    background-image: url("../images/bg/Backgroundrectangles_2.svg");
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.title_ourstory
+{
+
+    height:10%;
+    width: 80%;
+    margin-left: 15%;
+    font-size: 1.8vh;
+    font-weight:bolder;
+    font-style: italic;
+    color:#9ACD32;
+}
+
+.content_ourstory
+{
+
+    height: 50%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 30%;
+    z-index: 4;
+    line-height: 180%;
+    font-size: 1.5em;
+}
+
+.triangle_left_community
+{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../images/personen/Founder_2.png");
+    margin-bottom: -100%;
+    z-index: 1;
+    overflow: visible;
+}
+
+.triangle_right_community
+{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-image: url("../images/personen/Founder.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20%;
+    overflow: visible;
+}
+
+.faq_text_block
+{
+    width: 30%;
+    height: 10%;
+    color: white;
+    margin-left: 9%;
+    margin-right: 6%;
+    line-height: 150%;
+}
+
+.faq_title
+{
+    width: 100%;
+    height: 25%;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.faq_text
+{
+    width: 100%;
+    height: 75%;
+    font-weight: lighter;
+}
+
+.sponsoring_title
+{
+    height: 20%;
+    width:66%;
+    color: #9ACD32;
+}
+
+.sponsoring_content
+{
+    height: 80%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo_sponsoring_content
+{
+    height: 15%;
+    width: 15%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.wrapper_contact_left_text
+{
+
+    width: 30%;
+    height: 100%;
+    line-height: 160%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.formabout
+{
+
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.input_form_about
+{
+
+    border: 2px solid #9ACD32;
+    background-color: transparent;
+    height: 6%;
+    margin-bottom: 10%;
+    color: white;
+}
+
+.text_form_about
+{
+    height: 30%;
+}
+
+.subbutton
+{
+    border-style: none;
+    background: linear-gradient(89.74deg, #9ACD32 0.05%, #0073FF 100.25%);
+    border-radius: 30px;
+    height: 6%;
+    width: 32%;
+    align-self: flex-end;
+    color:white;
+    font-size: 2vh;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    transition: 0.5s background,border,color;
+    cursor: pointer;
+}
+
+.subbutton:hover
+{
+    border:  2px solid #EAEAEA;
+    background: transparent;
+    color: #EAEAEA;
+}
+
+.form_title_about
+{
+    margin: 0;
+}
+
+.impressum_title
+{
+    color: #9ACD32;
+    text-align: left;
+}
+
+.impressum_text
+{
+
+    color: white;
+    line-height: 2;
+}
+
+.impressum_text_wrapper
+{
+
+    height: 80%;
+    width: 70%;
+}
+
+.faq_main_title
+{
+    color: #9ACD32;
+    height: 10%;
+    width: 75%;
+    font-size: 1.4em;
+}
+
+.contact_title_sub
+{
+    color: #9ACD32;
+    font-size: 2vh;
+}
+
+@media screen and (max-width: 1280px)
+{
+    .title_ourstory
+    {
+       height: 15%;
+    }
+    .content_ourstory
+    {
+        height: 50%;
+        width: 50%;
+        margin-left: 15%;
+        margin-right: 30%;
+        z-index: 4;
+        line-height: 2;
+        font-size: 1em;
+    }
+
+    .communitytriangle
+    {
+        margin-top: 20%;
+        height: 140vh;
+    }
+
+    .triangle_right_community
+    {
+        margin-top: -30%;
+    }
+
+    .triangle_left_community
+    {
+        margin-bottom: -90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+   .title_ourstory
+   {
+       height: 10%;
+       width: 80%;
+       margin-left: 15%;
+       font-size: 1.5vh;
+
+   }
+
+   .content_ourstory
+   {
+       height: 50%;
+       width: 70%;
+       margin-left: 15%;
+       margin-right: 30%;
+       z-index: 4;
+       line-height: 2;
+       font-size: 1.2em;
+   }
+
+   .triangle_right_community
+   {
+       margin-bottom: 50%;
+   }
+
+   .sponsoring_title
+   {
+       margin-top: 30%;
+   }
+
+   .sponsoring_content
+   {
+       height: 50%;
+   }
+
+   .wrapper_contact_left_text
+   {
+       width: 25%;
+       line-height: 165%;
+       margin-top: 5%;
+   }
+
+   .formabout
+   {
+       width: 45%;
+       margin-left: 8%;
+       margin-top: -5%
+
+   }
+
+   .text_form_about
+   {
+       height: 20%
+   }
+
+   .subbutton
+   {
+       height: 5%;
+       width: 40%;
+       font-size: 1.5vh;
+   }
+
+
+}
+
+@media screen and (max-width: 600px)
+{
+    .sponsoring_title
+    {
+        margin-top: 60%;
+        height:15%;
+    }
+
+    .sponsoring_content
+    {
+        height: 34%;
+        margin-bottom: 80%;
+
+    }
+
+    .faq_text_block
+    {
+        width: 36%;
+        height: 35%;
+        margin-left: 2%;
+        margin-right: 0%;
+        font-size: 1.3vh;
+    }
+
+    .communitytriangle
+    {
+        margin-top: 60%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .wrapper_contact_left_text {
+        width: 62%;
+        line-height: 210%;
+        margin-top: -12%;
+    }
+    .formabout{
+        width: 82%;
+        margin-left: -62%;
+        margin-top: -16%;
+    }
+}
+
+/* iphone 6/7/8 375x667px*/
+@media screen and (max-width: 375px){
+
+    .content_ourstory
+    {
+        font-size: 0.8em;
+        width: 82%;
+        margin-left: 10%
+    }
+    .faq
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 36%;
+        flex-wrap: nowrap;
+    }
+
+    .faq_text_block {
+        width: 65%;
+        height: 35%;
+        margin-right: 0%;
+        font-size: 2vh;
+        padding: 3%;
+    }
+
+    .sponsoring_title {
+        margin-top: 30%;
+        height: 25%;
+    }
+
+    .wrapper_contact_left_text {
+        width: 70%;
+        height: 25%;
+        line-height: 165%;
+        margin-top: 5%;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .formabout {
+        width: 80%;
+        margin-left: 0%;
+        margin-bottom: 100%;
+
+    }
+
+    .impressum
+    {
+        margin-top: 11%;
+    }
+
+    .communitytriangle
+    {
+        height: 60vh;
+    }
+
+    .triangle_right_community
+    {
+        margin-top: -10%;
+    }
+
+    .triangle_left_community
+    {
+        margin-bottom: -132%;
+    }
+}

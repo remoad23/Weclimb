@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="542446e3-596b-41df-93ce-a8e19dd3038b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../apache/logs/httpd.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global/CategoryParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global/Sessioning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global/comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global/newtopic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/topic/BeispielTopic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/category.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/category.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/comment.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/comment.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/topic.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/topic.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/user.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/climb/user.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/mysql.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql/data/mysql_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/01/01a19f0dfa742277754a7ef37f133542831848bcd8201b0b2bf5db75678b82d2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/04/0491ae45624a486e110c9c0d67aff70572964a433c1e740963eef14e96d444ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/07/07e2d8f8e3be5157a79e00a4326ec802b22cee88d35539b2f8fac6242ae6ee31.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/09/09904ef30ab0c908939053e58bfb0e817658559e15f19c5920ac6dad8b0df886.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/0f/0f1536de9541c209b9bfe2be4e34d5fc9fc6c4a79a8a2c442aa6c206a3017975.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/10/107cf4540ca7dfb7eec6b12c7631ff092bf35f042382e3027554c7f2b7d2f790.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/11/114bda81896fa9376bb7b1eef79b1ffb6c44b76fc422d64a739f02343482313e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/12/12653f35a620e29927ed9c0711c12ebca1c4df3d1f633fa95fba50af0ba20eef.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/17/170093b70b5334ad326f0c81199a0ac8d092af7904af3bc1af93d79a7b97a26d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/17/17934b27c1fea2fa98e78c3f66290707766b4394f6a2da9ecaaf86f2bfb5dcb0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/18/186128d453c9d182a921df5e6be0842846d65db2f11ba3b062bf140184b169ce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/18/18de91e2b49a457e8f4147a7c62596440622adafd2ea58e5c68dfc21fb476d29.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/19/191769150806381a7a4942a3ff926117bdec2e300d2cf8cdf469cdbcac78035a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/19/19ef7d649c041f8e67b2ed4c2fb27cd4041849cd865b5f80e196c9a6aa4d225d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/1c/1c127eeec4fb983f70edc62795d1857f54a11418c336acd30325e054e29b3b89.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/1d/1d0c1e6bf91a74558280fe2e4f57112a2ad8b3418434f7ca32bfc0101df0afc4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/26/26fdc42bb6bc9759bf58ea93c7424d4feb3679cf03554a53af8a8e2305842c20.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/2c/2c7dacfb500269ac9dfeac10d0bdd28ce5170a7237df2276bb94535596b47ece.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/30/30c92a33ab9158e88663467dbb1a9aff7a05db6c3b0ce613fc557bb25e3bec13.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/37/3779acafcf930db81b53115df3d6b9aad0651a1a7439a43d8ae047643dc46704.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/3e/3e39dbab720e7cbdd54b519429216f1087f640721ee7090e38910aec6effa9ea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/3e/3e7d83ebf11cd55054a3c39876934a5e6eff1d9ad3201bf09eb129c18053d69a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/40/409390d04af9394a9ff777459f95e1e55854ca345f6287e26981aaedb990fec1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/43/4390de385264b8fb5791a18b2a4668ada79a973cb175d4b428a6bf6df4a75e8d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/4a/4a1b13849414fb063f87aff1f3a63e73a64cf3508e8b7f40a163d2ca3e870e0b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/4a/4a2d2067891805ab5c7f6be39ac1b7c031c229b47b15da283fb4df253b28becf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/54/543c26ea9595241109bebebb418c37ff4d4338c2afce54cdf60f51df9d114328.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/54/546a20414d172d8fac0d2fc58064798bebfc590ca81ede802d3ad333bd59c9e2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/56/56173ca0c7f4b0223c4d99222f97f8d293c547a3363716ebef85c4024556fdd4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/57/576c303f074710f6043bfb17f79535358d4be14260d2b1255fbbd2e0d42fc64e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/58/589f70bc2650c20efffa920d91eb9a1a6d67eeda8fe092ca5c2ba4b3660b805c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/5f/5f3fab5ceed623552635d372a15198ead16f0505d00c686a0e679785d19d3cce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/5f/5fe306644c28368fb76d356dc95f16dd1e349f01ac89146e6e20e42a5fb648d4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/61/6139ef4abfead575ad23c2c995a38b5e1d714c96703b2e10cd21a1875328b402.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/64/6461915a77a8cb49b99b82337b5cb84108fd37e1feb2030e2d820e3f9c6234d8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/66/6679a67b3a7524255bbc56481a1b32eb8d969cb7b872b3310c71bdc89da8e515.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/69/6907ad4a26f4e48d517fb769ce6090010faf1fca6c34c19dc3ef8d460850bd81.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/69/69660cb9ab6738c507d8fd1b0b5b7889f5e6c6ca545e1c2d6ba77f18db4d4797.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/69/696bdc8d85dfc7aa6b14213958bc83b6de8e0e7a775009f3db48e5e7df4e097a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/6b/6b15bdf72ada325c144b992fd143fb0383f5a5734723112af6790d62c541b629.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/6b/6bb22e32d0aefb13c9390d4c09e2aadb400cbc15b1a7d7c0bf34e3de72f49b58.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/6c/6cd072debdeba178218ab45a29e90e9bbc22854bf82ccb467452a2d1dcebcf6c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/6d/6debba8fcf0aa51fe49c17b43eb0a1936fb38c949dc58f70c786e66867a88e66.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/6e/6e4bf8e11c14727d5fc1eb250d6ec17218e4e0bf5dcf1f07c63348b0fd8ae638.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/70/700ef073dcbadefcc7fce50a00b36f97663a398c9dee1ee78f4fc819f3915b1e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/70/704c3de26478404a8368db0c23fbf02f48c609a11c4c8a675a4ca47dfd178898.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/72/72e964383ac5786aec2df6330b6e7e12cf93d4c89b244464795137fd529be6be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/78/7871e4dfcf7b648d897ba9b19ea5d615a712bf6a226548724483719bd8af4ee1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/80/801552fc12d6779c4a50639920520d9f01c6448f1786f007d3346a10ed17d218.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/81/81ae8f7b846a7bae78c0e6dbcd64d0f1dd723e4331529ec3b189b8957840e47d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/85/85852dde59053ac30ae8e7561e96340724fabe591cd1f8a447b1e59f76cf79d9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/87/87ce68e9dc313514eef38faa5198c41b6e21c6f7981d28e1a7dfee55f1a8d231.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/89/89dd0480ab37f6a851d6aba89866c7b5384d65417f1c39dc0a3956ffc28aba5b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/8a/8aef612cc9d6ffe0ad2c1a9d5c69f99880c5133a802f592d56f13d7d355c161d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/8b/8b095bdc929f044bb41b6dc5f25974dba1aa3b97258a225da8d2d8c69e3a99d4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/8e/8e1b5bf25ce18985fba6533bd8da0b77248c91f2556a6cf34bb5fe9963a5923e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/8f/8fb905e2af7c5265d4ae0974a32f9dfeb46166c0a346262d5bd2528c4257deb4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/8f/8fe1e365e06196ca74372a734c2988e2a1753286923d1b34c9be16bc40aae36f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/90/90c48fd9e2012f2360bc94812a245b164c9ab173620b90f4577c20f5b5c6f070.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/93/930a7a38dc896e61c51149870dcc361cdddd1053293f587bbc4be8449845b46c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/9d/9dc789fe1735ed34d0b1394b25301fe62393f2435aa892d4b29f187beb7e15b8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/9d/9dfbc37b10198b07f114705cb061b94f778f7e19b8b14f7afd7ac2d3fc7ce636.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/9e/9ee79e553cb1a8c7e45b624baa7b1068e6b68808411df64fb39772261e1288a5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/9f/9ffa573b1ca97e3f042b2f8622864457ea241e602a3b80997380443f9002a1e6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/a1/a1dc16d2c257043d8124f3c495a13711af8eab63aa979c2af7fba0aab4065d7b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/a2/a24a6316259d9ddc52b20d478c067d21846dbd3bb30e1ece377e8382eac6d0f9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/a4/a48402d2ec4d0e22e76c78c1959faad242ba37936a488dd3d4c4d028fb12b438.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/a4/a4d1fde0d3642cf37621540e2729101b952c17750fe82edf451e9a072a072b4d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/ae/ae0d54be8b01ca238a719e16ce115cefdfed41e54cc1881e169a5059ff354105.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/ae/ae3d950ded0cd1d4d70a16557062414459986ee441ccf304f7a13cf1c692f345.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/af/af4b92af744695830df9229f010ac8908c3667c7c3f1cdd949e34ee1780befa8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/b1/b16ee2910443d09fe06dbeb544f44869ec7615cea40a9c1141c4b2218412f2b3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/b2/b24a9406ff6958b78e8fc34a9382dbd7691c3799c714f9d32df291fa3f0ccee6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/b5/b55ee4af46e12b0b35176eb52780cb83f5aa8d7ca740232449cfb0d299ff7d61.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/bb/bb7bf95a283265db1b1c4cb156e1dd78996ed794fd9d93d4e4ab3b5b507904f0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/bc/bc8609392e7f3eebb5d3a892b43913445b6f87f99987d5d998ef52b4eac8e3c5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/bf/bff2dfa9d415c09d7b9c994b3012a7ecb581bdd4f4cba62b7eb80c2d2e774a53.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/c0/c033d459540fa4e7247fcbf0a086c7893e879214db213ec188ea449c679e6ad1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/c4/c46d29c49fbf6c89f64cfda8d1d61fd5fa8a40f398c0e5a1caa5f815d0dbd3ad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/c6/c6573bfe96593f0e5065360bca7c5b31ce440154c5b42fba69b1b08e8114e679.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/c7/c7481d5e83432a57aa60250e36ffc5db6705621598d526c7b019ec17a34dfef1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/c9/c9d0bf8e65cb81054a4ad15ebc98a7c9bb58f446648dacd350645cabfbc8fa62.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/d0/d0a7c2f8cfc25d41ab3782fda34e7f4ae81c9042920f9e8955b1c3fa90e209c9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/d1/d1ab9654d051a0122a5836f8ab7fb848e74a79767b48b1c277d7d89c1589a2d1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/d5/d5083c8994ddd4bd0d77840ab4ea2cce2dfa18cc00e60de1c9dd9dad72ba8a79.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/d6/d655ca3e6f9cad242577fb612d349a8aa2a6700b17da5199e1ccf3dc92edf801.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/d7/d7d20ef32f6be5a03d88c989516d42d366b4b3c46fdf1d2f75e591b767b62955.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/db/db204616a9007b0bdb60b4fe81dec301c04a6d952b2b4b126d93013c52803a83.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/e1/e1cb629464260061f7c98ce93f4af4fefb5762fd6ed476c38f38113708d8e586.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/e4/e44b6bfc866f53889b2a4b5113cc9eabc6167f3ed9c3f31b3f90f5092e1e2ef7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/e5/e551e3057ad511c5850da0c512ef9d1f84d2d1ac33a75d8ecc120bfcf2846a52.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/e6/e664bbc832e6b332427049fdc57a9ea054f7f1b897416cbf85837ee96bdc9fd8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/ea/eaa9c2e31e43cdd178cec4cce03a933fa7b85911e383cd3dadce15fa11d186e0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/ee/ee078cbcfa332e6aca640167a8f5fab45d78e4e7e826757d2ed5f8e3c06aabe2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f0/f03957c32502dfc4e917427d0339091f626311dbec569e9811c90561ab4a3e13.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f2/f22b4aa7687941a33cf8e46325d15db9413dec6b7b5dba92587ec336be8bff35.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f2/f270baa5a898defbe9574965b76b7467640f632c28ce56ae5e56b6b7e8958fc3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f2/f2f38295b2a5881323ac75e2162e0eb7a524ad37a8c064cf75d619b1819b24d0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f3/f33ee28776ebb9f7f43c55a4330972636a2efd35b91c3c0b9a3a73ed43652d31.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f9/f907a7d55a17a7902de14c57ef1e6ba309758860a08b50fa093a120b66c86db7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/f9/f913c7674a3c83fd84bbf646be44ebfa9cd8aeb5074dd728d7d764e96875a732.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/fa/fa99b87a68a5748b47ebddbb3956375be559912eefb10b64d254c6347be28d9a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../phpMyAdmin/tmp/twig/fb/fb5de04b6b2398a471dc2083c3bafaefe38c8a921bd043d9e5f1799ea1265d34.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../xampp-control.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/aria_log.00000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/aria_log_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/columns_priv.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/columns_priv.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/db.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/db.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/db.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/db.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/global_priv.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/global_priv.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/global_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/global_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/mysql/tables_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/mysql/tables_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__column_info.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__column_info.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__recent.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__recent.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__table_info.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__table_info.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__table_uiprefs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__table_uiprefs.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__userconfig.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/data/phpmyadmin/pma__userconfig.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xampp-control.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../xampp-control.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\xampp\htdocs\WebDevelopmentWS20\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WWQGXjkzD7Tr5v07E0Dr9gwY5N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/topic" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WebDevelopmentWS20\images\topic" />
+      <recent name="C:\xampp\htdocs\WebDevelopmentWS20\images\bg" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="542446e3-596b-41df-93ce-a8e19dd3038b" name="Default Changelist" comment="" />
+      <created>1579099172595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579099172595</updated>
+      <workItem from="1579099175868" duration="14487000" />
+      <workItem from="1579184623388" duration="11273000" />
+      <workItem from="1579262778072" duration="12140000" />
+      <workItem from="1579348195148" duration="45479000" />
+      <workItem from="1579438529704" duration="7223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="795" y="444" key="NewPhpFileDialog" timestamp="1579442672398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579442672398" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579348493653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579348493653" />
+    <state x="671" y="312" key="git4idea.merge.GitPullDialog" timestamp="1579371846832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="312" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579371846832" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579441537242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579441537242" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579268034880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579268034880" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

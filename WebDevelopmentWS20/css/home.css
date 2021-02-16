@@ -1,0 +1,582 @@
+/* Startseite*/
+header
+{
+    /*   background-color: rgba(255,255,255,0.4); */
+    height: 13vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    font-size: 3vh;
+}
+
+main
+{
+    height: 100%;
+    width: 100%;
+}
+
+.section
+{
+    background-color:black;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_wrapper
+{
+    min-height: 100vh;
+    height:100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(33,33,33,1.0)
+}
+
+#introduction
+{
+    background-image: url("../images/bg/man_on_wall.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 105vh;
+}
+
+
+#users
+{
+    height: 250vh;
+    /** mehrere "Hintegründe" , linear-gradient und rgba für dimmen des Bildes */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bg/krasseberge.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction_block
+{
+    color: #EAEAEA;
+    height: 25%;
+    width: 50%;
+    padding-top: 25%;
+    line-height: 1.6;
+    word-spacing:70%;
+    font-size: 1em;
+    margin-left: 17%;
+
+
+}
+
+.introduction_title
+{
+    font-weight: bolder;
+    font-size: 2.7em;
+
+}
+.home_review_textblock
+{
+    height: 60%;
+    width: 18%;
+    align-self: center;
+    color: white;
+}
+
+
+.review1_block_home
+{
+
+}
+
+.review2_block_home
+{
+
+    align-self: flex-end;
+    height: 30%;
+    margin-right: 10%;
+    font-size: 2vh;
+}
+
+
+.section_user_userreview
+{
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.review1
+{
+    background-image: url("../images/personen/Clara_triangle.png");
+    margin-top: -3%;
+    background-position-x: 80%;
+}
+
+.review2
+{
+    background-image: url("../images/personen/Christoph.png");
+    background-position-x: 15%;
+    margin-bottom: 30%;
+    margin-top: -25%;
+    background-position-y: 100%;
+}
+
+.user_review_title1
+{
+
+    text-align: end;
+    margin-right: -10%;
+}
+
+.user_review_title2
+{
+
+    margin-left: -10%;
+}
+
+.section_user_text
+{
+    width: 100%;
+    height: 13%;
+}
+
+.section_user_text_desc
+{
+    height: 100%;
+    width: 45%;
+    margin-left: 10%;
+    color: white;
+}
+
+.section_user_intro_gmap
+{
+    height: 11%;
+    width: 18%;
+    align-self: center;
+}
+
+.section_user_intro_gmap
+{
+    height: 10%;
+    width: 20%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_user_gmap_intro_text
+{
+    color: #9ACD32;
+    height: 100%;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+
+@keyframes moveY {
+    0%   {transform: translateY(0px)}
+    25%  {transform: translateY(5px)}
+    50%  {transform: translateY(10px)}
+    75%  {transform: translateY(5px)}
+    100% {transform: translateY(0px)}
+}
+
+/* Dreieck im zweiten Bereich,was zu google maps führt*/
+#triangle
+{
+    /* borders dienen als Dreiecke. 3 von 4 Dreiecke unsichtbar machen erzeugt also eine Dreieckfigur, höhe und breite müssen aber 0 sein! */
+    height: 0;
+    width: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 50px solid #9ACD32;
+    align-self: flex-end;
+
+    /* Damit Objekt sich oben und nach unten bewegent...*/
+    animation-name: moveY;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 800px)
+{
+    .home_review_textblock
+    {
+        height: 60%;
+        width: 35%;
+        align-self: center;
+        color: white;
+    }
+
+
+
+    .home_review_textblock
+    {
+        height: 60%;
+        width: 35%;
+        font-size: 0.8em;
+    }
+
+    #introduction
+    {
+        background-position-x: 23vh;
+        background-position-y: 0%;
+    }
+
+    .review1_block_home
+
+    {
+        margin-right: 10%;
+        margin-bottom: 15%;
+    }
+
+    .review2_block_home
+    {
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+
+    .review1
+    {
+        background-position-x: 88%;
+    }
+
+    .review2
+    {
+
+    }
+
+    .user_review_title1
+    {
+        margin-right: 9%;
+    }
+
+    .user_review_title2
+    {
+        margin-left: 0;
+    }
+
+    .section_user_intro_gmap
+    {
+        width: 28%;
+        font-size: 1.2em;
+        margin-top: 15%;
+    }
+
+    #triangle
+    {
+        border-left: 20px solid
+        transparent;
+
+        border-right: 20px solid
+        transparent;
+
+        border-top: 30px solid
+        #9ACD32;
+    }
+
+
+}
+
+@media screen and (max-width: 1280px)
+{
+
+
+    #introduction
+    {
+        background-position-x: 105vh;
+    }
+
+    .introduction_title {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+    .introduction_block {
+        color: #EAEAEA;
+        height: 25%;
+        width: 50%;
+        padding-top: 27%;
+        line-height: 1.8;
+        word-spacing: 27%;
+        font-size: 1em;
+        margin-left: 15%;
+    }
+
+    .nav_btn_wrap {
+        width: 25%;
+        height: 10%;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 15%;
+        margin-top: -2%;
+    }
+
+    .home_review_textblock
+    {
+        width: 23%;
+        margin-right: 12%;
+    }
+
+    .user_review_title1
+    {
+        margin-right: 3%;
+    }
+
+    .review2_block_home
+    {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+
+    .review1
+    {
+        margin-top: -1%;
+        background-position-x: 91%;
+    }
+
+    .review1_block_home
+    {
+        margin-right: 25%;
+        margin-bottom: 20%;
+        font-size: 1.6vh;
+        line-height: 1.5;
+    }
+
+    .review2
+    {
+        background-position-y: -25%;
+        background-position-x: 10%;
+        margin-bottom: 30%;
+        margin-top: -50%;
+    }
+
+    .review2_block_home
+    {
+        margin-right: 5%;
+        margin-bottom: 25%;
+        font-size: 1.6vh;
+        line-height: 1.5;
+    }
+
+
+    .section_user_text_desc
+    {
+        width: 80%;
+        line-height: 2;
+    }
+
+    .section_user_gmap_intro_text
+    {
+        width: 120%;
+        margin-top: 40%;
+        margin-left: -6%;
+    }
+
+    .section_user_intro_gmap
+    {
+        width: 25%;
+        font-size: 1.2em;
+        margin-top: 28%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px)
+{
+    header
+    {
+        height: 10vh;
+    }
+    #introduction
+    {
+        background-position-x: 24vh;
+        background-position-y: 0%;
+    }
+
+    .user_review_title1
+    {
+        margin-right: 3%;
+        font-size: 2.3vh;
+    }
+
+    .user_review_title2
+    {
+        margin-left: 0%;
+        font-size: 2.3vh;
+    }
+
+    .review1_block_home
+    {
+        margin-right: 55%;
+        margin-bottom: 30%;
+        width: 30%;
+    }
+
+    .review1
+    {
+        background-position-x: 37%;
+        width: 136%;
+        margin-top: -3%;
+    }
+
+    .review2
+    {
+        width: 136%;
+        background-position-x: 13%;
+        background-position-y: 0%;
+        margin-bottom: 20%;
+        margin-top: -75%;
+    }
+
+    .review2_block_home
+    {
+        margin-left: 9%;
+        margin-top: 50%;
+        width: 30%;
+    }
+
+    .home_review_textblock
+    {
+        line-height: 1.5;
+        font-size: 1.4vh;
+    }
+
+    .section_user_text_desc
+    {
+        width: 80%;
+        line-height: 2.3;
+        font-size: 1.5vh;
+    }
+
+    .section_user_gmap_intro_text
+    {
+        width: 140%;
+        height: 30%;
+        font-size: 1.1em;
+    }
+
+    #triangle
+    {
+        border-right-width: 20px;
+        margin-left: 45px;
+        margin-right: -30px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #introduction {
+        background-position-x: 15vh;
+    }
+
+    /*header burger menu overlay */
+
+    .introduction_title {
+
+        font-size: 1.5em;
+        margin-top: 100%;
+        margin-left: 0%;
+    }
+
+    .introduction_block
+    {
+        padding-top: 2%;
+        line-height: 1.5;
+        width: 60%;
+        margin-left: 8%;
+
+    }
+
+    .nav_btn_wrap
+    {
+        flex-direction: column;
+        width: 100%;
+        height: 30%;
+        margin-left: 10%;
+        margin-top: 72%;
+    }
+
+    .nav_btn_signup
+    {
+        height: 28%;
+        width: 64%;
+        font-size: 2.5vh;
+        margin-right: 20%;
+    }
+
+    .nav_btn
+    {
+        height: 28%;
+        width: 64%;
+        margin-left: -10%;
+        margin-top: 5%;
+        font-size: 2.5vh;
+    }
+
+    .user_review_title1
+    {
+        margin-right: 8%;
+        font-size: 2.8vh;
+    }
+
+    .review1_block_home
+    {
+        width: 35%;
+    }
+
+    .home_review_textblock
+    {
+        line-height: 1.2;
+        font-size: 2vh;
+    }
+
+    .review2
+    {
+        background-position-y: -30%;
+    }
+
+    .review2_block_home
+    {
+        margin-top: 22%;
+        width: 36%;
+    }
+
+    .user_review_title2
+    {
+        margin-right: 8%;
+        font-size: 2.8vh;
+    }
+
+    .section_user_text_desc
+    {
+        width: 85%;
+        line-height: 2;
+        font-size: 2.5vh;
+        margin-left: 8%;
+        margin-top: -50%;
+    }
+
+    .section_user_gmap_intro_text
+    {
+        width: 200%;
+        height: 50%;
+        font-size: 1.5em;
+        margin-top: 50%;
+        margin-left: -75%;
+    }
+
+    #triangle
+    {
+        margin-top: 20%;
+    }
+}
+

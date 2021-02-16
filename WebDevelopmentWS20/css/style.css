@@ -1,0 +1,1441 @@
+/* Globale CSS für alle Seiten der Webseite*/
+html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display:flex;
+    min-height: 100vh; /* Viewporthöhe,damit scrollt und nicht 100% von Bildschirm nur einnimmt,sondern flexibel stretcht wenn mehr drin is  */
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.body_bg_extend
+{
+    background-color: #212121;
+    background-image: url("../images/bg/community_background.png");
+}
+
+header
+{
+    /*   background-color: rgba(255,255,255,0.4); */
+    height: 13vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    font-size: 3vh;
+}
+
+main
+{
+    height: 100%;
+    width: 100%;
+}
+
+footer
+{
+    height: 20vh;
+    width: 100%;
+    /* bleibt immer unten.. */
+    bottom: 0;
+    position: relative;
+}
+
+
+.footer_top
+{
+    height:50%;
+    width:100%;
+    display: flex;
+    background: rgb(72, 65, 65);box-shadow: -1px -3px 15px rgba(0,0,0,0.8);
+}
+
+.footer_bottom
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(110, 110, 110, 0.35);
+}
+
+.nav_main
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70%;
+    align-items: flex-end;
+    width: 52%;
+    /* um default padding,margins zu ueberschreiben*/
+    margin: 0;
+    margin-left: 0px;
+    padding: 0;
+    list-style-type: none;  /* entfernt die dots beim auflisten*/
+    margin-left: 1vh;
+    margin-top: 3vh;
+}
+
+.nav_topic
+{
+    text-decoration: none;
+    color: #9ACD32;
+    transition: 0.3s;
+
+
+
+}
+
+.nav_btn
+{
+    height: 44%;
+    width: 40%;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #9ACD32;
+    align-self: center;
+    margin-right: 10%;
+    color:#9ACD32;
+    margin-top: 1vh;
+    font-size: 1.5vh;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav_btn_signup
+{
+    color: white;
+    border-style: none;
+    background: linear-gradient(89.74deg,
+    #9ACD32 0.05%,
+    #0073FF 100.25%);
+    border-radius: 30px;
+    height: 44%;
+    width: 40%;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    margin-right: 10%;
+    margin-top: 1vh;
+    font-size: 1.5vh;
+    cursor: pointer;
+
+    transition: 0.3s color,border,background;
+}
+
+.nav_btn_signup:hover
+{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+
+.nav_btn:hover
+{
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+    color: #9ACD32;
+    border: none;
+}
+
+.nav_btn_wrap
+{
+    width: 25%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 17%;
+    margin-top: -3%;
+}
+
+.header_form
+{
+
+    height: 40% !important;
+    width: 10%;
+    border: none !important;
+    align-self: flex-end;
+    margin: 0 auto;
+}
+
+.logout_btn
+{
+
+    height: 70% !important;
+    width: 80% !important;
+    margin: 0 !important;
+}
+
+.footer_topic
+{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-size: 0.7em;
+}
+
+.nav_topic:hover, .footer_topic:hover
+{
+    color:#0073FF ;
+    transition-delay: 0.2s;
+}
+
+.mobile_nav
+{
+    display: none;
+}
+.logo
+{
+    height: 95%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.img_logo
+{
+    height:100%;
+}
+
+.logo > a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile_img
+{
+
+    width: 15%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+
+.profile_img > img
+{
+    width: 25%;
+    height: 80%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.profile_img > p
+{
+
+    color: white;
+    font-size: 0.8em;
+    margin-top: 15%;
+}
+
+#introduction
+{
+    background-image: url("../images/bg/man_on_wall.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+#users
+{
+    height: 250vh;
+    /** mehrere "Hintegründe" , linear-gradient und rgba für dimmen des Bildes */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bg/krasseberge.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_review_textblock
+{
+    height: 60%;
+    width: 18%;
+    align-self: center;
+    color: white;
+}
+
+.input_invalid:invalid
+{
+    border: 3px solid red;
+}
+
+textarea:invalid
+{
+    border: 3px solid red;
+}
+
+.review1_block_home
+{
+
+}
+
+.review2_block_home
+{
+
+    align-self: flex-end;
+    height: 30%;
+    margin-right: 10%;
+}
+
+#gallery_modal
+{
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gallery_close
+{
+    position: absolute;
+    right: 4%;
+    top: 5%;
+}
+
+.gallery_button
+{
+    width: 100px;
+    height: auto;
+    opacity: 0.3;
+}
+
+#gallery_prev
+{
+    position: absolute;
+    left: 7%
+}
+
+#gallery_next
+{
+    position: absolute;
+    right: 7%
+}
+
+#modal_img
+{
+    width: available;
+    height: auto;
+    max-width: 60%;
+    max-height: 90%;
+}
+
+.hoverable
+{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.hoverable:hover
+{
+    transform: scale(1.1);
+}
+
+#map_section
+{
+    background: radial-gradient(50.99% 130.84% at 74.43% 41.29%, rgba(154, 205, 50, 0.15) 0%, rgba(0, 115, 255, 0.15) 100%);
+    /*  filter: blur(25px); */
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    height: 96vh !important;
+    align-items: flex-end;
+}
+
+.searchInput_wrapper
+{
+    flex-shrink: 0;
+    height: 4%;
+    width: 48%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background: transparent;
+    border: 1px solid white;
+    border-image: linear-gradient(89.74deg, #9ACD32 0.05%, #0073FF 100.25%);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchIcon
+{
+    height: 70%;
+    width: auto;
+    margin-left: 1%;
+    margin-top: 0.1%;
+    cursor: pointer;
+}
+
+.search_x_icon
+{
+    display: none;
+    height: 50%;
+    width: auto;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+#searchInput
+{
+    width: 95%;
+    height: 100%;
+    color: rgba(196, 196, 196, 0.75);
+    background: transparent;
+    border: 0px solid white;
+    font-style: italic;
+    font-size: 98%;
+}
+
+.map_wrapper
+{
+    height: 89%;
+    width: 100%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.loc_wrap_wrapper
+{
+    height: 99%;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.location_wrapper
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #eaeaea #6e6e6e;
+}
+
+.location_spot
+{
+    width: 94%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: #EAEAEA;
+    padding: 2%;
+    margin-bottom: 2%;
+    flex: 0 0 auto;
+}
+
+.spot_img
+{
+    width: 40%;
+    height: 98%;
+}
+
+.spot_web
+{
+    padding-top: 4%;
+}
+
+.map_text_wrapper
+{
+    width: 55%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    color: #000000;
+    font-size: 1vw;
+}
+
+.location_Title
+{
+    font-size: 1.3vw;
+}
+
+.location_Title:hover
+{
+    transition: 0.4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    color: #0073FF;
+    cursor: pointer;
+}
+
+.map_gallery_wrapper
+{
+    display: flex;
+    width: 58%;
+    height: 99%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.map
+{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.gallery_wrapper
+{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery_img
+{
+    width: auto;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.spot_web
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_nav
+{
+    height: 100%;
+    width: 30%;
+    margin-left: 32%;
+    margin-top:0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; /* entfernt die dots beim auflisten*/
+    align-items: center;
+}
+
+.footer_login
+{
+    height: 100%;
+    width: 17%;
+    margin-right: 5%;
+    margin-left: 7%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.login_btn
+{
+    height: 50%;
+    width: 40%;
+    border: 2px solid #EAEAEA;
+    transition: 0.4s;
+    border-radius: 30px;
+
+    /* Text des Button*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #EAEAEA;
+    display: none;
+}
+
+.btn_log
+{
+    background: transparent;
+}
+
+.btn_register
+{
+    transition: 0.4s;
+    background: linear-gradient(89.84deg, #9ACD32 0.05%, #0073FF 100.25%);
+}
+
+.btn_log:hover
+{
+    transition: 0.4s;
+    background: linear-gradient(89.84deg, #9ACD32 0.05%, #0073FF 100.25%);
+}
+
+.btn_register:hover
+{
+    background: transparent;
+}
+
+
+.copyright_text
+{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    align-self: center;
+}
+
+.footer_social
+{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+}
+
+.placeholder-icon
+{
+    font-size: 2.5em !important;
+    color: black;
+    transition: 0.2s;
+}
+
+.placeholder-icon:hover
+{
+    color:white;
+}
+
+
+
+.register_form
+{
+    height: 51vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:white;
+    align-self: flex-end;
+    margin-right: 15%;
+}
+
+.login_form
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    color:white;
+    align-self: flex-end;
+    margin-right: 15%;
+}
+
+.register_main /* Überschreibt einige Werte vom eigentlichen main tag für die Registerierungsseite*/
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150vh;
+    justify-content: center;
+}
+
+.form_element
+{
+    border: 2px solid #9ACD32;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+}
+
+input[name="logemail"]
+{
+
+}
+
+input[name="logpassword"]
+{
+
+}
+
+input[name="nachname"]
+{
+
+    width: 45%;
+    margin-right: 5%;
+}
+
+input[name="vorname"]
+{
+
+    width: 45%;
+}
+
+input[name="usernameShort"]
+{
+    width: 45%;
+}
+
+input[name="registeremail"]
+{
+
+    width: 45%;
+    margin-right: 50%;
+}
+
+input[name="registerpassword"]
+{
+
+    width: 45%;
+    margin-right: 5%;
+}
+
+input[name="adresse"]
+{
+
+    width: 35%;
+    margin-right: 5%;
+}
+
+input[name="plz"]
+{
+
+    width: 25%;
+    margin-right: 5%;
+}
+
+input[name="stadt"]
+{
+
+    width: 25%;
+}
+
+input[name="passwordverify"]
+{
+
+    width: 45%;
+}
+
+.form_button
+{
+
+    width: 23%;
+    height: 10%;
+    border-radius: 30px;
+    margin-top: 4%;
+    margin-left: 76%;
+    background: linear-gradient(89.74deg, #9ACD32 0.05%, #0073FF 100.25%);
+    border-style: none;
+    color: #EAEAEA;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: 0.3s background,border;
+}
+
+.form_button:hover
+{
+    background: none;
+    border: 2px solid white;
+}
+
+.register_title
+{
+    width:100%;
+    color: #9ACD32;
+    margin-left: -30%;
+    font-size: 3.3vh;
+}
+
+.form_text_vorname
+{
+
+    width: 49%;
+}
+
+.form_text_nachname
+{
+
+    width: 51%;
+}
+
+.form_text_username
+{
+    width: 70%;
+}
+
+.form_text_adresse
+{
+
+    width: 41%;
+}
+
+.form_text_email
+{
+
+    width: 55%;
+}
+
+.form_text_stadt
+{
+
+    width: 10%;
+}
+
+.form_text_plz
+{
+
+    width: 31%;
+}
+
+.form_text_passwort
+{
+
+    width: 51%;
+}
+
+.form_text_passwort_verify
+{
+
+    width: 49%;
+}
+
+
+.form_text_nachname_login
+{
+
+}
+
+.form_text_email_login
+{
+
+}
+
+.passwordforget
+{
+    text-decoration: none;
+    width:20%;
+    color:#0073FF;
+}
+
+.main_map
+{
+    margin-top: 10%;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .nav_btn_wrap{
+        margin-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 800px)
+{
+
+
+    /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) /
+   ([maximum viewport width] - [minimum viewport width])));
+
+   font-size: calc(12px + (18 - 12) * ((100vw - 479px)/(1920-479px)));
+    font-size: calc(12px + (18 - 12) * ((100vw - 479px)/(1920-479px)));
+
+     */
+
+    body
+    {
+        display: flex;
+        width: 100%;
+    }
+
+    header
+    {
+        font-size: 2vh;
+        height: 10vh;
+    }
+
+
+    .nav_main
+    {
+
+        width: 55%;
+        margin-left: 1vh;
+        margin-top: 3.5vh;
+    }
+    .nav_topic
+    {
+
+        font-size: 2vh;
+
+
+    }
+
+    .nav_btn
+    {
+        height: 30%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7vh;
+        font-size: 1.3vh;
+    }
+
+    .footer_nav
+    {
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    .copyright_text
+    {
+        margin-right: 30%;
+        font-size: 1.2vh;
+    }
+
+    .footer_login
+    {
+        width: 25%;
+        margin-right: 5%;
+        margin-left: 10%;
+        height: 80%;
+        margin-top: 1.2vh;
+    }
+
+    .login_btn
+    {
+        height: 40%;
+        width: 60%;
+        margin-right: 7%;
+        border: 1.5px solid #EAEAEA;
+        font-weight: normal;
+        font-size: 9px;
+    }
+
+    .img_logo
+    {
+        margin-left: 30%;
+        height: 85%;
+        margin-top: 20%;
+    }
+
+    .footer_social
+    {
+        width: 24%;
+        margin-left: 10%;
+    }
+
+    .map_text_wrapper
+    {
+        font-size: 1.4vw;
+    }
+
+    .location_Title
+    {
+        font-size: 1.5vw;
+    }
+
+    .location_spot
+    {
+        height: 10%;
+    }
+
+    .gallery_img
+    {
+        max-width: 50%;
+    }
+
+    .logout_btn
+    {
+
+        height: 150% !important;
+        width: 123% !important;
+        margin: 0 !important;
+        font-size: 1.5vw;
+    }
+
+    .main_map
+    {
+        margin-top: 20%;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /*nav bar menu and buttons*/
+
+    header
+    {
+        margin-top: -4%;
+    }
+
+    .profile_img
+    {
+
+        width: 15%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 3%;
+        margin-left: -20%;
+        margin-bottom: -4%;
+    }
+
+    .nav_main {
+
+        margin-top: 4.8vh;
+        margin-left: 1%;
+        width: 62%;
+        font-weight: bolder;
+    }
+
+    .nav_topic {
+        font-size: 1.6vh;
+        padding-top: 1em;
+
+    }
+
+    .nav_btn_signup
+    {
+        height: 36%;
+        width: 100%;
+        margin-top: 10vh;
+        margin-right: -10%;
+        font-size: 1.3vh;
+    }
+    .nav_btn
+    {
+        height: 36%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vh;
+        margin-left:-80%;
+        border-radius: 30px;
+        font-size: 1.3vh;
+    }
+
+    .nav_btn_wrap
+    {
+        width: 40%;
+        margin-left: 2em;
+    }
+
+    .img_logo
+    {
+        height: 80%;
+        margin-left: 60%;
+        margin-top: 30%;
+    }
+
+    .footer_nav
+    {
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 6%;
+    }
+
+    .footer_topic
+    {
+        font-size: 0.6em;
+
+    }
+
+    .footer_login
+    {
+        width: 24%;
+        margin-right: -5%;
+        margin-left: 4%;
+        height: 80%;
+        margin-top: 2%;
+    }
+
+    .copyright_text
+    {
+        font-size: 1vh;
+        margin-right: 33%;
+    }
+
+    .footer_social
+    {
+        width: 28%;
+        height: 100%;
+        margin-left: -3%;
+
+    }
+
+    .searchInput_wrapper
+    {
+        width: 98%;
+    }
+
+    .map_wrapper
+    {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+
+    }
+
+    .map_gallery_wrapper
+    {
+        width: 100%;
+        height: 50%;
+    }
+    #map
+    {
+        width: 98%;
+        height: 100%;
+    }
+
+    .loc_wrap_wrapper
+    {
+        width: 98%;
+        align-items: flex-start;
+        margin-right: 0%;
+        height: 50%;
+    }
+
+    .location_wrapper
+    {
+        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .location_spot
+    {
+        height: 20%;
+        width: 100%;
+        padding: 1%;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 1%;
+        flex: 0 0 auto;
+
+    }
+
+    .spot_img
+    {
+        width: 25%;
+        height: 100%;
+    }
+
+    .map_text_wrapper
+    {
+        width: 60%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .location_Title
+    {
+        font-size: 4vw;
+        margin-top: -2%;
+        width: 70%;
+        overflow: visible;
+        order: 0;
+    }
+
+    .location_description
+    {
+        font-size: 2.5vw;
+        order: 2;
+        height: 100%;
+        margin-top: 15%;
+    }
+
+    .spot_web
+    {
+        font-size: 2.5vw;
+        order: 1;
+        margin-bottom: 2%;
+        padding: 0;
+    }
+
+    #gallery_prev
+    {
+        left: 0;
+    }
+
+    #gallery_next
+    {
+        right: 0;
+    }
+
+    .logout_btn
+    {
+
+        height: 77% !important;
+        width: 150% !important;
+        margin-top: 100% !important;
+        font-size: 1.5vw;
+    }
+
+    .login_form
+    {
+        width: 63%;
+    }
+
+    .register_form
+    {
+        width: 63%;
+    }
+
+    .form_button
+    {
+        width: 30%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 375px)
+{
+
+    header
+    {
+        margin-top: -1%;
+    }
+
+    /*burger menu */
+
+    .burger_menu
+    {
+        background: transparent;
+        width: 12%;
+        height: 70%;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        z-index: 70;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    input#burger_menu
+    {
+
+
+    }
+
+
+    .line
+    {
+        height: 10%;
+        width: 80%;
+        background: #0073FF;
+        display: block;
+        transition: 0.25s;
+        transform-origin: center;
+    }
+
+    .line:nth-child(1)
+    {
+        top:10px;
+    }
+
+    .line:nth-child(2)
+    {
+        top:22px;
+    }
+
+    .line:nth-child(3)
+    {
+        top:34px;
+    }
+
+    .mobile_nav
+    {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(21,21,21,0.8);
+        list-style: none;
+        z-index: 69;
+    }
+
+    .mobile_nav > li > a
+    {
+        font-size: 1.2em;
+        line-height: 1.7;
+        font-weight: bold;
+    }
+
+    .nav_main /*overlay*/
+    {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        left:0;
+        top:0;
+        background-color: rgba(21,21,21,0.55);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .nav_topic
+    {
+        display: block;
+    }
+
+
+
+
+
+    .searchInput_wrapper{
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    /*footer*/
+    .footer_nav
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 68%;
+        margin-top: -1%;
+
+    }
+
+    .footer_social
+    {
+        margin:auto;
+
+    }
+
+    .footer_top
+    {
+        height: 85%;
+    }
+
+    .location_spot
+    {
+        height: 25%;
+        padding: 1.5%;
+    }
+
+    .location_description
+    {
+        margin-top: 17%;
+        font-size: 3vw;
+    }
+
+    .location_Title
+    {
+        font-size: 4vw;
+        width: 60%;
+    }
+
+    .spot_web
+    {
+        font-size: 3vw;
+    }
+
+    .gallery_img
+    {
+        max-width: 31%;
+    }
+
+    /*register form*/
+
+    .register_main
+    {
+        height: 160vh;
+    }
+
+    .register_title
+    {
+        margin-left: 0%;
+        font-size: 3vh;
+    }
+
+    .login_form
+    {
+        width: 90%;
+        margin-right: 5%;
+        margin-top: -30%;
+    }
+
+    .register_form
+    {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    input[name="plz"]
+    {
+        width: 20%;
+    }
+
+    .form_text_plz
+    {
+        width: 28%;
+    }
+
+    .form_button
+    {
+        margin-left: 70%;
+    }
+
+    .passwordforget
+    {
+        width: 70%;
+        margin-top: -10%;
+    }
+
+    .logout_btn
+    {
+        width: 180% !important;
+        font-size: 2.3vw;
+    }
+
+    .profile_img
+    {
+        margin-bottom:-11%;
+        margin-left: -45%;
+    }
+
+
+}
+
